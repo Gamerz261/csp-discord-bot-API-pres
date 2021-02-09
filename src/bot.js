@@ -22,7 +22,7 @@ client.on('message', async message => {
   if (!message.guild) return;
   if (message.content === '/msg') {
     message.reply('Look it is a message!');
-    console.log();
+    console.log("/msg was issued");
   }
 
   if (message.content === '/join') {
