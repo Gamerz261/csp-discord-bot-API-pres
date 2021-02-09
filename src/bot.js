@@ -1,3 +1,5 @@
+// Run command: node ./src/bot.js
+
 require('dotenv').config();
 
 const { Client } = require('discord.js');
